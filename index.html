@@ -169,6 +169,25 @@
       height: 60%;
 
     }
+.hotspot .label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(0, 0, 0, 0.45);
+
+  padding: 4px 8px;
+  border-radius: 6px;
+
+  pointer-events: none;
+}
+
   </style>
 </head>
 <body>
@@ -177,48 +196,49 @@
   <img src="setup.png" alt="Sareliy Gaming Setup">
 
   <!-- Monitore -->
-  <a href="https://www.samsung.com/de/monitors/curved/essential-monitor-s3-24-inch-curved-fhd-freesync-ls24c364eauxen/" class="hotspot monitor-left" target="_blank" title="Monitor_links"></a>
-  <a href="https://www.mediamarkt.de/de/product/_aoc-aoc-25g3zm-gaming-monitor-6223cm-245-zoll-full-hd-va-panel-1-ms-2xhdmi-displayport-25-zoll-full-hd-635-7366cm-25-29-zoll-1-ms-reaktionszeit-103026320.html" class="hotspot monitor-center" target="_blank" title="Hauptmonitor"></a>
-  <a href="https://www.mediamarkt.de/de/product/_acer-qg241yp-gaming-monitor-2726459.html" class="hotspot monitor-right" target="_blank" title="Monitor_rechts"></a>
+  <a href="https://www.samsung.com/de/monitors/curved/essential-monitor-s3-24-inch-curved-fhd-freesync-ls24c364eauxen/" class="hotspot monitor-left" target="_blank" title="Monitor_links"> <span class="label">Monitor_Links</span> </a>
+  <a href="https://www.mediamarkt.de/de/product/_aoc-aoc-25g3zm-gaming-monitor-6223cm-245-zoll-full-hd-va-panel-1-ms-2xhdmi-displayport-25-zoll-full-hd-635-7366cm-25-29-zoll-1-ms-reaktionszeit-103026320.html" class="hotspot monitor-center" target="_blank" title="Hauptmonitor"> <span class="label">Hauptmonitor</span> </a>
+  <a href="https://www.mediamarkt.de/de/product/_acer-qg241yp-gaming-monitor-2726459.html" class="hotspot monitor-right" target="_blank" title="Monitor_rechts"> <span class="label">Monitor_Rechts</span> </a>
 
   <!-- Headset -->
-  <a href="https://www.logitech.com/de-de/shop/p/g733-rgb-wireless-headset.981-000864?sp=1&searchclick=Logitech%20G" class="hotspot headset" target="_blank" title="Headset"></a>
+  <a href="https://www.logitech.com/de-de/shop/p/g733-rgb-wireless-headset.981-000864?sp=1&searchclick=Logitech%20G" class="hotspot headset" target="_blank" title="Headset"> <span class="label">Headset</span> </a>
 
   <!-- IEM -->
-  <a href="https://www.sony.de/gaming-gear/products/inzone-e9?sku=ierg900w.ce7" class="hotspot iem" target="_blank" title="In-Ear-Kopfhörer"></a>
+  <a href="https://www.sony.de/gaming-gear/products/inzone-e9?sku=ierg900w.ce7" class="hotspot iem" target="_blank" title="In-Ear-Kopfhörer"> <span class="label">In-Ear-Kopfhörer</span> </a>
 
   <!-- Capture Card -->
-  <a href="https://www.elgato.com/de/de/p/game-capture-neo" class="hotspot capture-card" target="_blank" title="Capture Card"></a>
+  <a href="https://www.elgato.com/de/de/p/game-capture-neo" class="hotspot capture-card" target="_blank" title="Capture Card"> <span class="label">Capture Card</span> </a>
 
   <!-- Webcam -->
-  <a href="https://www.logitech.com/de-de/shop/p/c922-pro-stream-webcam.960-001088?sp=1&searchclick=Logitech" class="hotspot webcam" target="_blank" title="Webcam"></a>
+  <a href="https://www.logitech.com/de-de/shop/p/c922-pro-stream-webcam.960-001088?sp=1&searchclick=Logitech" class="hotspot webcam" target="_blank" title="Webcam"> <span class="label">Webcam</span> </a>
 
   <!-- Licht -->
-  <a href="https://www.elgato.com/de/de/p/key-light-neo" class="hotspot light" target="_blank" title="Licht"></a>
+  <a href="https://www.elgato.com/de/de/p/key-light-neo" class="hotspot light" target="_blank" title="Licht"> <span class="label">Licht</span> </a>
 
   <!-- Streamdeck -->
-  <a href="https://www.elgato.com/de/de/p/stream-deck-neo" class="hotspot streamdeck" target="_blank" title="Stream Deck"></a>
+  <a href="https://www.elgato.com/de/de/p/stream-deck-neo" class="hotspot streamdeck" target="_blank" title="Streamdeck"> <span class="label">Streamdeck</span> </a>
 
   <!-- Eingabegeräte -->
-  <a href="https://www.corsair.com/de/de/p/keyboards/ch-91a401a-de/k65-pro-mini-rgb-65-optical-mechanical-gaming-keyboard-de-ch-91a401a-de?srsltid=AfmBOooSZf7PsbikE6Skvktj0QeNyc2EMk-L-tS_iG8h3jYw_48Y4iDF" class="hotspot keyboard" target="_blank" title="Tastatur"></a>
-  <a href="https://www.logitech.com/de-de/shop/p/g502-hero-gaming-mouse.910-005470?sp=2&searchclick=Logitech%20G" class="hotspot mouse" target="_blank" title="Maus"></a>
+  <a href="https://www.corsair.com/de/de/p/keyboards/ch-91a401a-de/k65-pro-mini-rgb-65-optical-mechanical-gaming-keyboard-de-ch-91a401a-de?srsltid=AfmBOooSZf7PsbikE6Skvktj0QeNyc2EMk-L-tS_iG8h3jYw_48Y4iDF" class="hotspot keyboard" target="_blank" title="Tastatur"> <span class="label">Tastatur</span> </a>
+  <a href="https://www.logitech.com/de-de/shop/p/g502-hero-gaming-mouse.910-005470?sp=2&searchclick=Logitech%20G" class="hotspot mouse" target="_blank" title="Maus"> <span class="label">Maus</span> </a>
 
   <!-- Mikrofon -->
-  <a href="https://www.amazon.de/dp/B0CMDB6QK5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1" class="hotspot microphone" target="_blank" title="Mikrofon"></a>
+  <a href="https://www.amazon.de/dp/B0CMDB6QK5?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1" class="hotspot microphone" target="_blank" title="Mikrofon"> <span class="label">Mikrofon</span> </a>
 
   <!-- PC -->
-  <a href="https://www.mediamarkt.de/de/product/_beastcom-q5-or-pro-gaming-gaming-pc-mit-intelr-coretm-i9-32-gb-ram-1-tb-ssd-geforce-rtxtm-4060-ti-windows-11-pro-64-bit-142537298.html" class="hotspot pc" target="_blank" title="PC"></a>
+  <a href="https://www.mediamarkt.de/de/product/_beastcom-q5-or-pro-gaming-gaming-pc-mit-intelr-coretm-i9-32-gb-ram-1-tb-ssd-geforce-rtxtm-4060-ti-windows-11-pro-64-bit-142537298.html" class="hotspot pc" target="_blank" title="PC"> <span class="label">PC</span> </a>
 
   <!-- Tisch -->
-  <a href="https://www.amazon.de/dp/B0B3MYKG1P?ref=ppx_pop_dt_b_product_details&th=1" class="hotspot desk" target="_blank" title="Tisch"></a>
+  <a href="https://www.amazon.de/dp/B0B3MYKG1P?ref=ppx_pop_dt_b_product_details&th=1" class="hotspot desk" target="_blank" title="Tisch"> <span class="label">Tisch</span> </a>
 
   <!-- Stuhl -->
-  <a href="https://www.amazon.de/WOLTU-Atmungsaktiv-Ergonomisch-Lendenkissen-Belastbarkeit/dp/B0CV4QVNF7/ref=sr_1_14?__mk_de_DE=ÅMÅŽÕÑ&crid=1LILJIJR5GW9U&dib=eyJ2IjoiMSJ9.HjfKOGhDtPRao38cDPs8bW-t5y6Jk8NOzJ3OzTonRqySm_IXOQJtsRsw8grROInfD5sSS7G6yDB7IvRogOMjcUJnvGHS_sv_wA12quQfsLaWsN30LyHSm-PnVoGDpaDIBRHNF894VjwNbVr0F1o0Kl5EEE9CBG0nKs3COtTUOBIciQ96AKCbGBcm0SiFlkhQcWoQDbf5LPcxPqXDtN93lFFGgzy9cfOLlvPd_lQgnXYRDOuwdC_kzWb_RkUw35CP79Ru9330dvrmUoSOMm_u7A.2BXU5hMgXepPgTwrLodceTAFqAQdBH5rJrNagwIpMXk&dib_tag=se&keywords=gaming%2Bstuhl%2Bmit%2Bfußstütze%2Baus%2Bstoff%2Bwoltu&m=A1PY5LZZWKVRVS&qid=1767470984&refinements=p_6%3AA1PY5LZZWKVRVS&sprefix=gaming%2Bstuhl%2Bmit%2Bfußstütze%2Baus%2Bstoff%2Bwoltu%2Caps%2C92&sr=8-14&th=1" class="hotspot stuhl" target="_blank" title="Stuhl"></a>
+  <a href="https://www.amazon.de/WOLTU-Atmungsaktiv-Ergonomisch-Lendenkissen-Belastbarkeit/dp/B0CV4QVNF7/ref=sr_1_14?__mk_de_DE=ÅMÅŽÕÑ&crid=1LILJIJR5GW9U&dib=eyJ2IjoiMSJ9.HjfKOGhDtPRao38cDPs8bW-t5y6Jk8NOzJ3OzTonRqySm_IXOQJtsRsw8grROInfD5sSS7G6yDB7IvRogOMjcUJnvGHS_sv_wA12quQfsLaWsN30LyHSm-PnVoGDpaDIBRHNF894VjwNbVr0F1o0Kl5EEE9CBG0nKs3COtTUOBIciQ96AKCbGBcm0SiFlkhQcWoQDbf5LPcxPqXDtN93lFFGgzy9cfOLlvPd_lQgnXYRDOuwdC_kzWb_RkUw35CP79Ru9330dvrmUoSOMm_u7A.2BXU5hMgXepPgTwrLodceTAFqAQdBH5rJrNagwIpMXk&dib_tag=se&keywords=gaming%2Bstuhl%2Bmit%2Bfußstütze%2Baus%2Bstoff%2Bwoltu&m=A1PY5LZZWKVRVS&qid=1767470984&refinements=p_6%3AA1PY5LZZWKVRVS&sprefix=gaming%2Bstuhl%2Bmit%2Bfußstütze%2Baus%2Bstoff%2Bwoltu%2Caps%2C92&sr=8-14&th=1" class="hotspot stuhl" target="_blank" title="Stuhl"> <span class="label">Stuhl</span> </a>
 
   <!-- Mouse Pad -->
-  <a href="https://www.amazon.de/dp/B0CK87Q6VX?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1" class="hotspot mouse-pad" target="_blank" title="MousePad"></a>
+  <a href="https://www.amazon.de/dp/B0CK87Q6VX?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1" class="hotspot mouse-pad" target="_blank" title="MousePad"> <span class="label">MousePad</span> </a>
 </div>
 
 </body>
 </html>
+
 
